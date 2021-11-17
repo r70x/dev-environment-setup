@@ -34,7 +34,7 @@ If you login as root, it should be `/root/.zshrc`
 
 ## Awesome Linux Dev Tools
 
-**fzf: commond line fuzzy finder**  
+**fzf: commond line fuzzy finder**    
 https://github.com/junegunn/fzf
 
 
@@ -51,5 +51,5 @@ https://portx.online/en/free-for-home-school/
 
   
 **MobaXterm Home Edition**  
-Free for commercial or company environment
+Free for commercial or company environment  
 https://mobaxterm.mobatek.net/download-home-edition.html
