@@ -1,0 +1,28 @@
+
+plugins=(git globalias docker kubectrl)
+
+autoload -Uz compinit; compinit;
+bindkey "^Xa" _expand_alias
+zstyle ':completion:*' completer _expand_alias _complete _ignored
+zstyle ':completion:*' regular true
+zstyle ':completion:*' menu select
+
+# Kubectl auto complete
+source <(kubectl completion zsh)
+
+
+export FZF_DEFAULT_OPTS='--height 80% --reverse'
+bindkey -r '^R'
+# showkey -a
+# F1
+bindkey '^[OP' fzf-history-widget
+
+
+alias c='clear'
+alias d='docker'
+alias di='docker image list'
+alias dp='docker ps -a --format="table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Command}}\t{{.Status}}"'
+alias y='yarn'
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
