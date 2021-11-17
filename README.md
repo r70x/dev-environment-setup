@@ -1,5 +1,5 @@
 All-in-one script for setup a Docker and node.js development environment.
-The script has benn tested in Ubuntu v20.
+The script has been tested in Ubuntu v20.
 
 
 
