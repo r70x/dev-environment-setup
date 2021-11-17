@@ -6,7 +6,7 @@ First, copy all *.sh files into your Linux folder, e.g.
   
 
 ## Setup node.js and Docker development environment
-***
+
 ```bash
 chmod +x ./dev-env-setup.sh
 ./dev-env-setup.sh
@@ -14,7 +14,7 @@ chmod +x ./dev-env-setup.sh
 
  
 ## Install zsh
-***
+
 **1. Install zsh**
 ```bash
 chmod +x ./oh-my-zsh-setup.sh
@@ -32,7 +32,7 @@ If you login as root, it should be `/root/.zshrc`
 
 
 ##Awesome Linux Dev Tools
-***
+
 **fzf: commond line fuzzy finder**  
 https://github.com/junegunn/fzf
 
@@ -43,7 +43,7 @@ https://github.com/junegunn/fzf
   
 
 ## SSH client for Windows
-***
+
 **XSHell and XFTP Home Edition**  
 Free for Non-Commercial Use Only  
 https://portx.online/en/free-for-home-school/
