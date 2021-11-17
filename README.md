@@ -1,34 +1,38 @@
-# Instructions
+All-in-one script for setup a Docker and node.js development environment.
+The script has benn tested in Ubuntu v20.
 
-First, copy all *.sh files into your Linux folder, e.g.  
-`/tmp/env-setup`
+
+
+1. __copy all *.sh files into a folder__,   
+ e.g. `/tmp/env-setup`
 
   
 
-## Setup node.js and Docker development environment
-
-```bash
-chmod +x ./dev-env-setup.sh
-./dev-env-setup.sh
-```
+2. __Install node.js and Docker__  
+    The below script will install curl, git, Java JDK, g++ make, mongo tools, node.js v14.x, yarn, docker, docker-compose, kubectl
+    ```bash
+    chmod +x ./dev-env-setup.sh
+    ./dev-env-setup.sh
+    ```
 
  
-## Install zsh
+3. __Additional setup__   
+    The below step will install zsh, oh-my-zsh, fzf, and enable bash completion, docker completion, kubecrl completion
+    
+   * Install zsh
+    ```bash
+    chmod +x ./oh-my-zsh-setup.sh
+    ./oh-my-zsh-setup.sh
+    
+    chmod +x ./zsh-extra-setup.sh
+    ./zsh-extra-setup.sh
 
-**1. Install zsh**
-```bash
-chmod +x ./oh-my-zsh-setup.sh
-./oh-my-zsh-setup.sh
-
-chmod +x ./zsh-extra-setup.sh
-./zsh-extra-setup.sh
-
-# reload zsh 
-souce ~/.zshrc
-```
-**2. Edit zsh configuration**   
-Copy the content of `zshrc.txt` into the end of `~/.zshrc` file.  
-If you login as root, it should be `/root/.zshrc`
+    # reload zsh 
+    souce ~/.zshrc
+    ```
+   * Edit zsh configuration   
+   Copy the content of `zshrc.txt` into the end of `~/.zshrc` file.  
+   If you login as root, it should be `/root/.zshrc`
 
 
 
