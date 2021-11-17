@@ -20,7 +20,7 @@ The script has been tested in Ubuntu v20.
     The below step will install zsh, oh-my-zsh, fzf, and enable bash completion, docker completion, kubecrl completion
     
    * Install zsh
-    ```bash
+   ```bash
     chmod +x ./oh-my-zsh-setup.sh
     ./oh-my-zsh-setup.sh
     
@@ -28,14 +28,14 @@ The script has been tested in Ubuntu v20.
     ./zsh-extra-setup.sh
 
     # reload zsh 
-    souce ~/.zshrc
+    source ~/.zshrc
     ```
    * Edit zsh configuration   
    Copy the content of `zshrc.txt` into the end of `~/.zshrc` file.  
    If you login as root, it should be `/root/.zshrc`  
    ```bash
    # reload zsh 
-   souce ~/.zshrc
+   source ~/.zshrc
    ```
 
 
