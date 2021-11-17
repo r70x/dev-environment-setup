@@ -32,8 +32,11 @@ The script has been tested in Ubuntu v20.
     ```
    * Edit zsh configuration   
    Copy the content of `zshrc.txt` into the end of `~/.zshrc` file.  
-   If you login as root, it should be `/root/.zshrc`
-
+   If you login as root, it should be `/root/.zshrc`  
+   ```bash
+   # reload zsh 
+   souce ~/.zshrc
+   ```
 
 
 ## Awesome Linux Dev Tools
